@@ -83,7 +83,19 @@ input {
 }
 form button {
   background: var(--primary);
+  margin-right: 4%;
   border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+.phill {
+  background: var(--primary);
+  border: 0;
+  margin-top: 4%;
+  min-width: 105px;
   color: #fff;
   padding: 10px;
   font-family: "Poppins";
@@ -97,4 +109,7 @@ div.error {
   color: var(--error);
   border-radius: 4px;
   margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
 }
